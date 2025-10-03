@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+<!--Style Css link-->
+    <link rel="stylesheet" href="style.css">
+<!--Style Css link-->
+
+<!--Tailwind Link-->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!--Tailwind Link-->
+
+<!-- Google Fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<!-- Google Fonts link -->
+
+<!-- Font Awesome  link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Font Awesome  link -->
+
+
+</head>
+<body class="font-[Poppins]">
+
+   <header>
+<!--Navber Section Start-->    
+    <nav class="container mx-auto py-4 flex items-center justify-between border-gray-300 ">
+        <div>
+            <img class="w-[200px]" src="./img/Logo.svg" alt="Logo">
+        </div>
+        <div class="flex items-center gap-5 border border-gray-400 rounded-lg">
+            <ul>
+                <select id="categories" name="categories outline-none" class=" rounded-lg p-2 w-44 text-sm">
+                    <option value="cat1">All Categories</option>
+                    <option value="cat2">Category 2</option>
+                    <option value="cat3">Category 3</option>
+                    <option value="cat4">Category 4</option>
+                    <option value="cat5">Category 5</option>
+                </select>
+            </ul>
+            <span class="border-l-1 border border-gray-300 h-8"></span>
+            <span class="flex">
+                <input class="text-sm w-96 py-3 rounded-l-lg focus:outline-none" type="text" placeholder="Search Product here....." name="" id="">
+                <button class=" text-white bg-red-500 py-3 p-3 rounded-r-lg flex items-center justify-center  ">
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                </button>
+            </span>
+        </div>
+        <div class="flex items-center gap-5">
+            <i class="fa-solid fa-user text-2xl"></i>
+            <span class="relative inline-flex items-center">
+                <i class="fa-solid fa-right-left text-2xl"></i>
+                <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">0</span>
+            </span>
+             <span class="relative inline-flex items-center">
+                <i class="fa-regular fa-heart text-2xl"></i>
+                <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">0</span>
+            </span>
+             <div class="flex items-center gap-3">
+                <span class="relative inline-flex items-center">
+                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                    <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">0</span>
+                </span>
+                <span>
+                    <p class="text-sm">My Cart</p>
+                    <p class="text-sm text-gray-500" >$0.00</p>
+                </span>
+             </div>
+        </div> 
+    </nav>
+<!--Navber Section End-->
+
+<!--Menubar Section Start-->
+    <section class="container mx-auto mt-4 flex items-center justify-between">
+        <div class=" flex items-center gap-6">
+            <div>
+                    <button class="flex items-center font-semibold cursor-pointer gap-3 bg-red-500 p-3 px-8 rounded-t-lg  text-white">
+                    <i class="fa-solid fa-bars"></i>
+                    <p>Shop By Categories</p>
+                    </button>
+            </div>
+            <div>
+                <ul class="flex gap-5">
+                <li><a href="">Home</a></li>
+                <li>
+                    <select name="" id="">
+                        <option value="">Shop</option>
+                    </select>
+                    
+                </li>
+                <li>
+                    <select name="" id="">
+                        <option value="">Categories</option>
+                    </select>
+                </li>
+               <li>
+                    <select name="" id="">
+                        <option value="">Products</option>
+                    </select>
+                </li>
+                <li>
+                    <select name="" id="">
+                        <option value="">Top Deals</option>
+                    </select>
+                </li>
+                <li>
+                    <select name="" id="">
+                        <option value="">Elements</option>
+                    </select>
+                </li>
+                
+                </ul>
+            </div>
+        </div>
+        <div class="gap-1 flex items-center">
+            <i class="fa-solid fa-fire-flame-curved text-red-500"></i>
+            <p>Hot Deals</p>
+        </div>
+    </section>
+<!--Menubar Section End-->
+   </header>
+</body>
+</html>
