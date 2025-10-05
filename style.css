@@ -32,4 +32,20 @@
 }
 
 
+
+/*offer*/
+.offer{
+    background-image: url(./img/cms-banner-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    
+}
+
+
+
+
+
+
+
 <h2 class="text-2xl font-semibold border-b-2 w-[210px] py-2 border-red-600">Deal of the Week</h2>
